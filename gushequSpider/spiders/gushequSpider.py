@@ -4,6 +4,8 @@ class GushequSpider(scrapy.Spider):
     def __init__(self):
         pass
 
+    """这是为了爬取招财大牛猫的post信息而开发的
+    """
 
     name = "gushequSpider"
     start_urls = ["http://www.gushequ.com",]
